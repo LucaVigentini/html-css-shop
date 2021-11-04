@@ -69,7 +69,7 @@ h5 {
 
 .hearts{
     position:absolute;
-    top: 240px;
+    bottom: 3px;
     left: 150px;
     display: none;
     cursor: pointer;
