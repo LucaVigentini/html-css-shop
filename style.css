@@ -1,11 +1,11 @@
-body {
-    margin-left: 25%;
-    margin-right: 25%;
-}
+
 #contenitore {
     background-color: rgb(255, 255, 255);
     width: 1000px;
     height: 400px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 30px;
 }
 
 
