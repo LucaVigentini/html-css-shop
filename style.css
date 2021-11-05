@@ -1,26 +1,21 @@
-
 #contenitore {
-    background-color: rgb(255, 255, 255);
-    width: 1000px;
-    height: 400px;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
-
-#left {
+.riga {
+    text-align: center;
+}
+.left {
     background-image: url(pd1.jpeg);
     width: 300px;
     height: 372px;
-    margin-left: 40px;
     margin-top: 15px;
     display: inline-block; 
     position: relative;
     border-radius: 15px;
 }
 
-#center {
+.center {
     background-image: url(pd2.jpeg);
     width: 300px;
     height: 372px;
@@ -31,8 +26,7 @@
     margin-left: 6px;
 }
 
-#right {
-    
+.right {    
     background-image: url(pd3.jpeg);
     width: 300px;
     height: 372px;
@@ -44,27 +38,27 @@
     margin-left: 6px;
 }
 
-#toprighta { 
+.toprighta { 
     background-color: green;
     width: 40px;
-    height: 20px;
+    height: 25px;
     position: absolute;
     right: 0;
     border-top-right-radius: 13px;
 }
 
-#toprightb { 
+.toprightb { 
     background-color: red;
     width: 40px;
-    height: 20px;
+    height: 25px;
     position: absolute;
     right: 0;
     border-top-right-radius: 13px;
 }
 
 h5 {
-    margin-top: 0px;
-    margin-left: 4px;
+    margin-top: 4px;
+    margin-left: 3px;
 }
 
 .hearts{
@@ -76,12 +70,12 @@ h5 {
     color: red;
 }
 
-#left:hover .hearts{
+.left:hover .hearts{
     display: block;
 }
-#right:hover .hearts{
+.right:hover .hearts{
     display: block;
 }
-#center:hover .hearts{
+.center:hover .hearts{
     display: block;
 }
